@@ -2,14 +2,15 @@ A simple Python module to evaluate the strength of a 4-digit or 6-digit MPIN (Mo
 
 # Features
 
-> Accepts MPIN of 4 or 6 digits
->Detects if the MPIN resembles:
-> a> Your Date of Birth
-> b> Your Spouse's Date of Birth
-> c> Your Anniversary
+Accepts MPIN of 4 or 6 digits
 
-> Supports common date formats like:
-> > DDMM, MMDD, MMYY, YYMM, DDYY, YYDD (for 4-digit MPINs)
-> > DDMMYY, MMDDYY, YYMMDD, YYDDMM, DDYYYY, MMYYYY, YYYYDD, YYYYMM (for 6-digit MPINs)
+Detects if the MPIN resembles:
+a> Your Date of Birth
+b> Your Spouse's Date of Birth
+c> Your Anniversary
+
+Supports common date formats like:
+-> DDMM, MMDD, MMYY, YYMM, DDYY, YYDD (for 4-digit MPINs)
+-> DDMMYY, MMDDYY, YYMMDD, YYDDMM, DDYYYY, MMYYYY, YYYYDD, YYYYMM (for 6-digit MPINs)
 
 Returns whether the MPIN is STRONG or WEAK, with reasons for weakness
